@@ -18,20 +18,17 @@ const Hero = () => {
           <AvatarImage src="/placeholder.svg" alt="Your Name" />
           <AvatarFallback>YN</AvatarFallback>
         </Avatar>
-        <div className="inline-block mb-4 px-4 py-2 bg-primary/10 backdrop-blur-sm rounded-full border border-primary/20">
-          <span className="text-sm font-medium text-primary">Available for opportunities</span>
-        </div>
         
         <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
           Your Name
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-6 font-medium">
-          Software Engineer
+          Software Engineer & Founder
         </p>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Building elegant solutions with modern technologies. Specialized in full-stack development and scalable architectures.
+          Principal Security Engineer with 10+ years of experience leading infrastructure hardening, threat mitigation, and secure platform architecture across AWS, Terraform, and CI/CD ecosystems.
         </p>
         
         <div className="flex flex-wrap gap-4 justify-center mb-12">
