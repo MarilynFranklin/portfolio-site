@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import Gravatar from "react-gravatar"
 
 const Hero = () => {
   return (
@@ -15,7 +16,10 @@ const Hero = () => {
       
       <div className="max-w-4xl mx-auto text-center relative z-10 animate-fade-in">
         <Avatar className="w-32 h-32 mx-auto mb-6 border-4 border-primary/20">
-          <AvatarImage src="/placeholder.svg" alt="Your Name" />
+          <Gravatar
+            email="marilyn.j.franklin@gmail.com"
+            className="w-full h-full object-cover opacity-7"
+          />
           <AvatarFallback>YN</AvatarFallback>
         </Avatar>
         
