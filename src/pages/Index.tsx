@@ -5,6 +5,8 @@ import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 
+const currentYear = new Date().getFullYear();
+
 const Index = () => {
   return (
     <div className="min-h-screen">
@@ -16,7 +18,7 @@ const Index = () => {
       <Contact />
       
       <footer className="py-8 text-center text-sm text-muted-foreground border-t border-border">
-        <p>© 2024 Software Engineer. Built with React & TypeScript.</p>
+        <p>© {currentYear} Marilyn Franklin. Built with React & TypeScript.</p>
       </footer>
     </div>
   );

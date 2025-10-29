@@ -5,7 +5,7 @@ import Gravatar from "react-gravatar"
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-4">
+    <section className="mt-6 min-h-screen flex items-center justify-center relative overflow-hidden px-4">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-background">
         <img 
           src="/placeholder.svg" 

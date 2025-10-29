@@ -118,9 +118,6 @@ const Experience = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Work Experience</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Building impactful products and leading teams across various industries
-          </p>
         </div>
         <div className="relative">
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-border hidden md:block"></div>

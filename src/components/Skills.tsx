@@ -2,10 +2,10 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 
 const skills = {
-  "Frontend": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js"],
-  "Backend": ["Node.js", "Python", "PostgreSQL", "MongoDB", "GraphQL"],
-  "DevOps": ["Docker", "AWS", "CI/CD", "Kubernetes", "Git"],
-  "Tools": ["VS Code", "Figma", "Jira", "Postman", "Linux"]
+  "Infrastructure": [ "AWS", "Ansible", "Beats", "CI/CD", "CentOS", "Consul", "Consul Connect", "Debian", "Docker", "ElasticSearch", "GCE", "Golang", "Kibana", "Linux", "Logstash", "NGINX", "Nomad", "Packer", "Puppet", "Redis", "Shell Scripting", "Telegraf", "Terraform", "Terragrunt", "Unix", "Vault", "Waypoint"],
+  "Security": ["Bot Management", "Certificate Management", "CSP (Content Security Policy)", "Secrets Management", "WAF (Web Application Firewall)"],
+  "Frontend": ["React", "TypeScript", "Next.js", "Tailwind CSS", "ReactNative"],
+  "Backend": ["Node.js", "Python", "PostgreSQL", "MySQL", "APIs", "GraphQL", "REST", "Rails", "Ruby"]
 };
 
 const Skills = () => {
