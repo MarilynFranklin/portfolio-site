@@ -5,16 +5,11 @@ import Gravatar from "react-gravatar"
 
 const Hero = () => {
   return (
-    <section className="mt-6 min-h-screen flex items-center justify-center relative overflow-hidden px-4">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-background">
-        <img 
-          src="/placeholder.svg" 
-          alt="Background" 
-          className="w-full h-full object-cover opacity-5"
-        />
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-4">
+      <div className="topography-pattern absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-background">
       </div>
       
-      <div className="max-w-4xl mx-auto text-center relative z-10 animate-fade-in">
+      <div className="from-card to-card/50 border-border/50 p-8 pt-10 mt-20 rounded-lg border bg-card text-card-foreground max-w-4xl mx-auto text-center relative z-10 animate-fade-in">
         <Avatar className="w-32 h-32 mx-auto mb-6 border-4 border-primary/20">
           <Gravatar
             email="marilyn.j.franklin@gmail.com"
