@@ -40,7 +40,7 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden py-4 animate-fade-in">
             <div className="flex flex-col gap-4">
-              <Link
+              {/* <Link
                 to="/"
                 className="text-foreground/80 hover:text-foreground transition-colors"
                 onClick={() => setIsOpen(false)}
@@ -53,7 +53,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Blog
-              </Link>
+              </Link> */}
               <Button size="sm" asChild>
                 <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
               </Button>
