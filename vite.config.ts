@@ -2,7 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { readdirSync, readFileSync } from "fs";
-import { componentTagger } from "lovable-tagger";
 import matter from "gray-matter";
 const postsData = {}
 const posts = readdirSync("./posts").map((file) => {
@@ -24,8 +23,7 @@ export default defineConfig(({ mode }) => ({
     __POSTS__: JSON.stringify(postsData)
   },
   plugins: [
-    react(),
-    mode === "development" && componentTagger()
+    react()
   ].filter(Boolean),
   resolve: {
     alias: {
