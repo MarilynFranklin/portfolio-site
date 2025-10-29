@@ -2,6 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Mail, Phone, MapPin } from "lucide-react";
 
+const contactDetails = {
+  email: "marilyn.franklin@proton.me",
+  location: "Portland Metro, Oregon"
+}
+
 const Contact = () => {
   return (
     <section id="contact" className="py-20 px-4 bg-secondary/30">
@@ -17,7 +22,7 @@ const Contact = () => {
             </div>
             <h3 className="font-semibold mb-2">Email</h3>
             <a href="mailto:contact@example.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-              contact@example.com
+              {contactDetails.email}
             </a>
           </Card>
           
@@ -37,16 +42,18 @@ const Contact = () => {
             </div>
             <h3 className="font-semibold mb-2">Location</h3>
             <p className="text-sm text-muted-foreground">
-              San Francisco, CA
+              {contactDetails.location}
             </p>
           </Card>
         </div>
         
         <div className="text-center">
-          <Button size="lg" className="animate-fade-in" style={{ animationDelay: "300ms" }}>
-            <Mail className="mr-2 h-4 w-4" />
-            Send Message
-          </Button>
+          <a href="mailto:contact@example.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Button size="lg" className="animate-fade-in" style={{ animationDelay: "300ms" }}>
+              <Mail className="mr-2 h-4 w-4" />
+              Send Message
+            </Button>
+          </a>
         </div>
       </div>
     </section>
