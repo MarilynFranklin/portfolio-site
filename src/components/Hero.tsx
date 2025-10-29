@@ -33,7 +33,7 @@ const Hero = () => {
         
         <div className="flex flex-wrap gap-4 justify-center mb-12">
           <Button size="lg" className="group">
-            View My Work
+            <a href="#experience">View My Work</a>
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
           <Button size="lg" variant="outline">
@@ -43,23 +43,23 @@ const Hero = () => {
         
         <div className="flex gap-4 justify-center">
           <a
-            href="https://github.com"
+            href="https://github.com/MarilynFranklin"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card hover:bg-primary/10 border border-border transition-all hover:scale-110 hover:shadow-glow"
           >
             <Github className="h-5 w-5" />
           </a>
-          <a
+          {/* <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card hover:bg-primary/10 border border-border transition-all hover:scale-110 hover:shadow-glow"
           >
             <Linkedin className="h-5 w-5" />
-          </a>
+          </a> */}
           <a
-            href="mailto:contact@example.com"
+            href="mailto:marilyn.franklin@proton.me"
             className="p-3 rounded-full bg-card hover:bg-primary/10 border border-border transition-all hover:scale-110 hover:shadow-glow"
           >
             <Mail className="h-5 w-5" />

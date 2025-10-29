@@ -16,12 +16,12 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
-            <Link to="/" className="text-foreground/80 hover:text-foreground transition-colors">
+            {/* <Link to="/" className="text-foreground/80 hover:text-foreground transition-colors">
               Home
             </Link>
             <Link to="/blog" className="text-foreground/80 hover:text-foreground transition-colors">
               Blog
-            </Link>
+            </Link> */}
             <Button size="sm" asChild>
               <a href="#contact">Contact</a>
             </Button>
