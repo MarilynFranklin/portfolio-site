@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { HomeModernIcon } from '@heroicons/react/24/outline'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,8 +11,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Marilyn Franklin
+          <Link to="/" className="text-xl font-bold text-primary">
+            <HomeModernIcon className="size-6 text-primary" />
           </Link>
 
           {/* Desktop Navigation */}
