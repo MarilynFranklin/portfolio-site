@@ -20,7 +20,7 @@ const Hero = () => {
         </Avatar>
         
         <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
-          Your Name
+          Marilyn Franklin
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-6 font-medium">
